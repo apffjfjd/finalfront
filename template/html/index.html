@@ -1,22 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Sun Tour</title>
-</head>
-<body>
+  </head>
+  <body>
     <div data-include-path="layout.html"></div>
     <script src="../js/layout.js"></script>
-    <!-- <main>
-        <section class="carousel">
-            <article class="carousel__img"></article>
-            <article class="carousel__img"></article>
-            <article class="carousel__img"></article>
-        </section>
-    </main> -->
-    
-</body>
+    <main>
+      <section class="con1">
+        <ul class="carousel carousel--theme-full">
+          <li class="carousel__box carousel__box--theme-full">
+            <img class="carousel__img" src="../img/bbadda.jpg" alt="" />
+          </li>
+          <li class="carousel__box carousel__box--theme-full">
+            <img class="carousel__img" src="../img/goyange.jpg" alt="" />
+          </li>
+          <li class="carousel__box carousel__box--theme-full">
+            <img class="carousel__img" src="../img/라이언.jpg" alt="" />
+          </li>
+        </ul>
+        <button class="prev">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="next">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </section>
+      <section class="con2">
+        <ul class="carousel carousel--theme-three">
+          <li class="carousel__box carousel__box--theme-three">
+            <img class="carousel__img" src="../img/goyange.jpg" alt="" />
+          </li>
+          <li class="carousel__box carousel__box--theme-three">
+            <img class="carousel__img" src="../img/라이언.jpg" alt="" />
+          </li>
+          <li class="carousel__box carousel__box--theme-three">
+            <img class="carousel__img" src="../img/bbadda.jpg" alt="" />
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="../js/carousel.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7723a79ab5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
